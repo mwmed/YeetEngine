@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="yeet_includes.h">
+      <Filter>yeet_common</Filter>
+    </ClInclude>
+    <ClInclude Include="yeet_drawable.h">
+      <Filter>yeetengine\objects\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="yeet_rectangle.h">
+      <Filter>yeetengine\objects\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="c_gameobject.h">
+      <Filter>yeetengine\objects\game</Filter>
+    </ClInclude>
+    <ClInclude Include="base_window.h">
+      <Filter>yeet_framework</Filter>
+    </ClInclude>
+    <ClInclude Include="base_d3d.h">
+      <Filter>yeet_framework</Filter>
+    </ClInclude>
+    <ClInclude Include="yeet_frametimer.h">
+      <Filter>yeet_framework</Filter>
+    </ClInclude>
+    <ClInclude Include="yeetengine.h">
+      <Filter>yeetengine</Filter>
+    </ClInclude>
+    <ClInclude Include="c_inputobject.h">
+      <Filter>yeetengine\objects\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="c_engine.h">
+      <Filter>yeetengine</Filter>
+    </ClInclude>
+    <ClInclude Include="c_inputmanager.h">
+      <Filter>yeetengine</Filter>
+    </ClInclude>
+    <ClInclude Include="c_objectmanager.h">
+      <Filter>yeetengine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="yeet_common">
+      <UniqueIdentifier>{70ea6d4f-8ee2-418c-81dc-30bd7d0ab360}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="yeetengine">
+      <UniqueIdentifier>{aa19b4c4-34f7-4495-9c3b-7bbaaaed2351}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="yeetengine\objects">
+      <UniqueIdentifier>{ae9136c1-e018-4445-a982-abb6cbe4a864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="yeetengine\objects\canvas">
+      <UniqueIdentifier>{c8fe6184-1b06-4ec2-91df-76a13f0cb08a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="yeetengine\objects\game">
+      <UniqueIdentifier>{fbc8fe77-9987-401c-abaa-aa7e807fefe9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="yeet_framework">
+      <UniqueIdentifier>{4615bbda-454c-48fe-8119-b81a044422f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="yeetengine\objects\engine">
+      <UniqueIdentifier>{47a975b0-65e3-49f7-bb33-db32c95c81df}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="yeet_rectangle.cpp">
+      <Filter>yeetengine\objects\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="yeetengine.cpp">
+      <Filter>yeetengine</Filter>
+    </ClCompile>
+    <ClCompile Include="base_d3d.cpp">
+      <Filter>yeet_framework</Filter>
+    </ClCompile>
+    <ClCompile Include="base_window.cpp">
+      <Filter>yeet_framework</Filter>
+    </ClCompile>
+    <ClCompile Include="yeet_frametimer.cpp">
+      <Filter>yeet_framework</Filter>
+    </ClCompile>
+    <ClCompile Include="c_inputmanager.cpp">
+      <Filter>yeetengine</Filter>
+    </ClCompile>
+    <ClCompile Include="c_objectmanager.cpp">
+      <Filter>yeetengine</Filter>
+    </ClCompile>
+    <ClCompile Include="c_engine.cpp">
+      <Filter>yeetengine</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

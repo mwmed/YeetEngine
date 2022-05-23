@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="YeetGame.cpp" />
+    <ClCompile Include="c_gamemanager.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="c_boxplayer.cpp">
+      <Filter>game\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="c_boxcanvas.cpp">
+      <Filter>game\objects\canvas</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="game">
+      <UniqueIdentifier>{a6205daa-cb17-4502-9de7-8e9395a674f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\objects">
+      <UniqueIdentifier>{01607d66-a814-4be5-9b9c-d4c6c573adfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\objects\canvas">
+      <UniqueIdentifier>{2b42e5fc-e72a-44d3-ae3a-964b7c1309f4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="c_gamemanager.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="c_boxplayer.h">
+      <Filter>game\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="c_boxcanvas.h">
+      <Filter>game\objects\canvas</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
